@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name              = "Socialize"
   s.platform          = :ios, '7.0'
-  s.version           = "3.1.2"
+  s.version           = "3.1.3"
   s.summary           = "Socialize SDK for iOS devices."
   s.description       = "An iOS social sharing SDK for native apps. Learn more at http://getsocialize.com/"
   s.homepage          = "https://github.com/socialize/socialize-sdk-ios"
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author            = { "David Jedeikin" => "djedeikin@sharethis.com" }
   s.source            = { :git => "https://github.com/socialize/socialize-sdk-ios.git", :tag => "3.1.2" }
   s.dependency        'Loopy'
-  s.dependency        'Facebook-iOS-SDK', '3.20.0'
+  s.dependency        'Facebook-iOS-SDK', '4.1.0'
   s.dependency        'SZOAuthConsumer'
   s.dependency        'SZJSONKit'
   s.dependency        'BlocksKit'
